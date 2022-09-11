@@ -1,0 +1,211 @@
+body, html{
+    height:100%;
+    margin:0px;
+   }
+    
+  body {
+    margin: 10;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #9a98f8ad;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffd634;
+    
+  }
+
+
+  
+  .main-nav {
+    width: 100%;
+    background:#222;
+    min-height: 30px;
+    padding: 0px;
+    position:center;
+    text-align: left ;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 200;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav .name {
+    color:#FFB6C1
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+   margin:5px;
+
+  }
+  
+
+  .nav a:hover {
+    color: #9a98f8ad
+  }
+  
+  header {
+    text-align: center;
+    background: url('images/sky.png');
+    padding-top: 10px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    }
+
+    .sky-image{
+        height: 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position:relative;
+       }
+
+
+  header .profile-image {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: 3px solid;
+    border-color: #222;
+    transition:all 1s;
+  }
+
+  header .profile-image:hover {
+    transform: scale(1.5) rotate(-25deg);
+  }
+
+  .tag {
+    background-color: #ffd634b7; 
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 5px auto;
+  } 
+
+  .location {
+    background-color: #FFB6C1;
+    color:#222;
+  }
+
+#side{
+    width: 25%;
+    float: left;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+#right{
+    
+    width: 70%;
+    float: right ;
+    height: 50%;
+    padding-right: 10px;
+    padding-top: 20px ;
+
+    
+}
+
+
+  .articles {
+    margin: 20px;
+    padding: 20px 20px 20px;
+
+    text-align: center;
+    background:#FFB6C1;
+    border-bottom: 4px solid #222;
+    border-radius: 6px;
+ 
+    
+  }
+  .articles:hover {
+    border-color:#ffd634;
+  }
+  
+  ul.hobbies {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .hobbies li {
+    border-radius: 10px;
+    display: inline-block;
+    background: #ffd634;
+    color: black;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  
+  .hobbies li:nth-child(odd) {
+    background:#9a98f8ad;
+    color:white;
+  }
+  
+  .main-articles {
+    margin: 10px;
+    padding: 20px 20px 20px;
+   
+    text-align: center;
+    background: #ffd634b7;
+    border-bottom: 4px solid #222;
+    border-radius: 6px;
+    
+  }
+  .main-articles:hover {
+    border-color: #ffd634;
+  }
+
+  #trees{  
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+
+  }
+#kayak{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+#kayak-text{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;    
+}
+
+#a-tree{
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+#form{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+  footer {
+    width: 100%;
+    min-height: 50px;
+}
+
+    main{
+        overflow: auto;
+    }
+
+
+
+  
