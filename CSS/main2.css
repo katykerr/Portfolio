@@ -17,9 +17,7 @@ body, html{
     
   }
 
-
-  
-  .main-nav {
+ .main-nav {
     width: 100%;
     background:#222;
     min-height: 30px;
@@ -36,17 +34,17 @@ body, html{
     margin: 0;
     padding: 0;
   }
-  .nav .name {
+
+  .nav .page-name {
     color:#FFB6C1
   }
+
   .nav li {
     padding: 5px 10px 10px 10px;
    margin:5px;
-
   }
   
-
-  .nav a:hover {
+ .nav a:hover {
     color: #9a98f8ad
   }
   
@@ -58,7 +56,7 @@ body, html{
     padding-bottom: 20px;
     }
 
-    .sky-image{
+  .sky-image{
         height: 40%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -81,7 +79,7 @@ body, html{
     transform: scale(1.5) rotate(-25deg);
   }
 
-  .tag {
+  .name {
     background-color: #ffd634b7; 
     color: black;
     padding: 10px;
@@ -104,21 +102,15 @@ body, html{
 }
 
 #right{
-    
     width: 70%;
     float: right ;
     height: 50%;
     padding-right: 10px;
-    padding-top: 20px ;
-
-    
+    padding-top: 20px ;   
 }
-
-
   .articles {
     margin: 20px;
     padding: 20px 20px 20px;
-
     text-align: center;
     background:#FFB6C1;
     border-bottom: 4px solid #222;
@@ -152,13 +144,12 @@ body, html{
   .main-articles {
     margin: 10px;
     padding: 20px 20px 20px;
-   
     text-align: center;
     background: #ffd634b7;
     border-bottom: 4px solid #222;
     border-radius: 6px;
-    
-  }
+   }
+
   .main-articles:hover {
     border-color: #ffd634;
   }
@@ -168,8 +159,8 @@ body, html{
     margin-left: auto;
     margin-right: auto;
     display:block;
+   }
 
-  }
 #kayak{
     width:80%;
     margin-left: auto;
